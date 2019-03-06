@@ -1,0 +1,40 @@
+
+<head>
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="tabs">
+            <a class="first-tab tab"><div id="tab-active-title"></div></a>
+            <span class="new-tab fas fa-plus"></span>
+        </div>
+        <div class="search-container">
+            <button class="btn fas fa-arrow-left" onclick="backBtn()"></button>
+            <button class="btn fas fa-arrow-right"onclick="fwdBtn()"></button>
+            <!-- Back/Forward btn divider -->
+            <vr style="margin: 0px 8px;"></vr>
+            <!-- Home btn divider-->
+            <button class="btn fas fa-home" style="margin-left: 2px;" onclick="homeBtn()"></button>
+            <button class="btn fas fa-redo" onclick="reloadBtn()" oncontextmenu="noCacheReload()"></button>
+            <form action="javascript:setLocation();" style="display: inline;">
+                <i id="secure" class="fas fa-lock"></i>
+                <i id="unsecure" class="fas fa-unlock"></i>
+                <i id="unknown" class="fas fa-question-circle"></i>
+                <input id="search-bar" type="text" value="">
+            </form>
+            <i id="menuBtn" style="float: right; margin-right: 10px;" class="btn fas fa-ellipsis-h" onclick="browserMenu()"></i>
+        </div>
+        <div id="menu-container">
+        <ul class="menu-list">
+            <li class="menu-item" onclick="devTools()">Developer Tools</li>
+            <li class="menu-item">Preferences</li>
+        </ul>
+        </div>
+        <div class="loader"></div>
+    </div>
+    
+    <webview id="tab-active" src="https://jrdn.website"></webview>
+
+    <script src="main.js"></script>
+</body>

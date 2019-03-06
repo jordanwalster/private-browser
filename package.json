@@ -1,0 +1,14 @@
+{
+  "name": "context-browser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assets/index.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "author": "Jordan Walster",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.13"
+  }
+}
