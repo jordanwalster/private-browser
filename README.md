@@ -1,6 +1,12 @@
 ## Private Browser
 ### Electron powered browser. (Still in development)
 
+### Installation
+
+Currently there are no packages to install the browser with. But if you know about node.js, and fancy running it yourself - you are welcome to do so.
+
+### Other Information
+
 #### Vision 
 Using the electron project, I'm building a [Chromium](https://www.chromium.org/) based browser. With the intended purpose of 
 tabs being as disposable. Tabs will run completely independently unless specified in Preferences, this means that you could 
@@ -24,3 +30,7 @@ There are currently no plans for a bookmarks bar due to the intended use case fo
 #### Suggestions
 
 Any suggestions for changes, or new features to be added can be requested by opening up an issue.
+
+#### License
+
+[MIT License](LICENSE)
