@@ -1,5 +1,5 @@
 ## Private Browser
-### Electron powered browser. (Still in development)
+### Electron powered browser. (Abandoned Project)
 
 ### Installation
 
